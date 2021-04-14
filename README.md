@@ -1,65 +1,36 @@
-# budget-tracker
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Budget Tracker with Offline Functionality
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## Description 
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+This application allows a user to input money transactions they make either in or out of their account and shows a graph of their total budget. This application has offline support through indexDB and a service-worker. 
 
-Offline Functionality:
+## Table of Contents
 
-  * Enter deposits offline
+* [Usage](#usage)
+* [License](#license)
+* [Questions](#questions)
 
-  * Enter expenses offline
+## Usage 
 
-When brought back online:
+To use this app go to https://ejbrownlf-budget-tracker.herokuapp.com/
 
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+At the top of the app you can input a transaction name and a numerical amout to associate it with. Then click the add or subtract button to to update your budget.
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+![Site Screenshot](./img/Screenshot1.png)
 
-- - -
 
-## Commit Early and Often
+# License
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+This project is covered by the [MIT](https://opensource.org/licenses/MIT) License
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+# Questions
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+Here is a link to my [Github](https://github.com/ejbrownlf)
 
-* Follow these guidelines for committing:
+You can reach me by emailing me here at ejbrownlf@gmail.com
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
+Link to my portfolio: https://ejbrownlf.github.io/pages/portfolio.html
 
