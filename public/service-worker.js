@@ -51,7 +51,6 @@ self.addEventListener('fetch', (event) => {
     !event.request.url.startsWith(self.location.origin)
   ) {
     event.respondWith(fetch(event.request));
-    console.log('hi from service worker line 52')
     return;
   }
 
